@@ -11,11 +11,11 @@ gem 'jbuilder', '~> 1.2'
 #gem 'sass-rails', '>= 3.2' # sass-rails needs to be higher than 3.2
 gem 'bootstrap-sass'
 
-group :development, test do
+group :development, :test do
 	gem 'sqlite3'
 end
 
-group :production, test do
+group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
