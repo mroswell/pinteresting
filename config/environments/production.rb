@@ -79,5 +79,5 @@ Pinteresting::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # Required for Heroku; https://onemonthrails.com/steps/setting-up-devise
-  config.action_mailer.default_url_options = { :host => 'http://pinteresting-commits.herokuapp.com/' }
+  config.action_mailer.default_url_options = { :host => 'http://shrouded-ravine-4033.herokuapp.com/' }
 end
