@@ -11,7 +11,8 @@ gem 'jbuilder', '~> 1.2'
 #gem 'sass-rails', '>= 3.2' # sass-rails needs to be higher than 3.2
 gem 'bootstrap-sass'
 gem 'devise', '~>3.2.2'
-gem 'paperclip', '~>3.0'
+gem 'paperclip', '~>4.0.0'
+gem 'aws-sdk', '~> 1.33.0'
 
 group :development, :test do
 	gem 'sqlite3'
