@@ -4,7 +4,7 @@ class PinsController < ApplicationController
   before_action :correct_user, only: [ :edit, :update, :destroy ]
   # GET /pins
   def index
-    @pins = Pin.all
+    @pins = Pin..order('created_at DESC')
   end
 
   # GET /pins/1
