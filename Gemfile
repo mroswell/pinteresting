@@ -6,6 +6,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 1.2'
 #gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch '3'
 #gem 'sass-rails', '>= 3.2' # sass-rails needs to be higher than 3.2
@@ -13,6 +14,8 @@ gem 'bootstrap-sass'
 gem 'devise', '~>3.2.2'
 gem 'paperclip', '~>3.0'
 gem 'aws-sdk', '~> 1.33.0'
+gem 'masonry-rails', '~>0.2.0'
+
 
 group :development, :test do
 	gem 'sqlite3'
